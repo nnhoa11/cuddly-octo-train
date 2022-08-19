@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'gotham';
+    src: local('Gotham'), url(./font/SVN-Gotham-Black.otf) format('truetype');
+}
+body{
+    background-image: url("./resource/background4.png");
+  }
+* {
+    font-family: 'gotham';
+    color:black;
+}
+.logo {
+    width: 109px;
+    height: 77px;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.searchBox{
+    margin: 26px;
+}
+
+.navbar .links {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.accBtn{
+    border-radius: 25px;
+    margin-left: 26px;
+    color: white;
+    border: none;
+    background-color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+.navbar a {
+    /* color: black; */
+    margin-left: 26px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    /* color: #e9ffcf; */
+    color: white;
+    background-color: black;
+    /*  #194E78 */
+    border-radius: 25px;
+}
+.searchBox {
+    /* position: absolute; */
+    /* transform:  translate(-50%,50%); */
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 200px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  color : #2f3640;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    /* border-radius: 50%; */
+    background: #2f3640;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.material-icons{
+    background-color: #2f3640;
+    color: white;
+}
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
+.links >.accBtn:hover{
+    color: black;
+    background-color: white;
+}

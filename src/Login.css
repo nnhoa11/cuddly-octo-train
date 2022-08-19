@@ -1,0 +1,92 @@
+.Login{
+    background: #fff;
+    min-width: 500px;
+    text-align: center;
+    padding: 10px;
+}
+input {
+    z-index: 1;
+	outline: none;
+	border: none;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #929fba;
+}
+#b1 {
+    border: 1px solid #666666!important;
+    background-color: #666666;
+}
+#ie ~ #b1{
+    width: 0;
+}
+#ie:focus ~ #b1 {
+    width: 617px;
+    transition: 0.5s;
+}
+#border2 {
+    border: 1px solid #666666!important;
+    background-color: #666666;
+}
+#ip ~ #border2{
+    width: 0;
+}
+#ip:focus ~ #border2 {
+    width: 617px;
+    transition: 0.5s;
+}
+#border2 {
+    border: 1px solid #666666!important;
+    background-color: #666666;
+}
+/* @keyframes inputFocus {
+    0% {
+        border-bottom: 0 #666666;
+      }
+    
+    100% {
+        border-bottom: 100% 2px #666666;
+      }
+}
+input:focus{
+    animation: inputFocus 1s;
+    
+} */
+
+.loginCfrm{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 100px;
+    width: 20%;
+    margin-left: auto; 
+}
+.loginCfrm:hover{
+    color: white;
+    background-color: black;
+}
+.loginForm{
+    margin-left: auto;
+}
+.otherLogin{
+    display: flex;
+    /* margin-left: auto; */
+    max-width: auto;
+    margin-top: 40px;
+}
+.fbLogin >.icon{
+    height: 25px;
+    width: 25px;
+    fill: white;
+    background-color: rgb(24,119,242);
+ 
+}
+.fbLogin{
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    border: none;
+    background-color: rgb(24,119,242);
+    margin: 10px;
+}
+#buttonDiv{
+    margin: 10px;
+}
